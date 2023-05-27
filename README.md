@@ -50,11 +50,56 @@ Clicar com o botão direito na pasta, selecionar:
 
 > GIT bash here...
 
+---
+
+## Todos os comandos abaixo são LOCAIS (apenas no meu computador)
+
 ## Clonar um repositório
 
 Clone = cópia local = o mesmo que está na internet está copiado no seu computador.
 
 `git clone "endereço copiado do Github no botão: verde`
+Confere lá no Github (site)!
+
 Code
 
 Aba HTTPS
+
+### Visualizar as diferenças entre o anterior e as modificações que fiz agora:
+
+`git status`
+
+`clear` Limpar o terminal
+
+`git add nome-do-arquivo` adiciona arquivos ao versionamento
+
+o tempo todo pode ser dado esse comando
+
+`tecla tab` para completar o nome do arquivo
+
+Ao terminar, vamos **confirmar** nossas alterações:
+
+(Fechar um pacotinho)
+
+`git commit -m "Comentário"`
+Sempre entre aspas duplas
+
+Comentário: Explicar o fechamento do seu pacote, a confirmação do total do seu trabalho.
+
+## Comando de sincronização do repo local com o repo remoto
+
+`git push` Empurrar para o servidor
+
+upload dos fontes
+
+Vão aparecer telas iniciais de login no github
+
+Confere lá no Github (site)!
+
+Para ignorar arquivos no git, criamos um arquivo na main, sem nome de arquivo, com extensão `.gitignore`
+
+`git add .` Adiciona todos os arquivos da pasta
+
+`git diff nome-do-arquivo` Mostra as diferenças, tanto as adicionadas (staged) quando as ainda não add (unstaged)
+
+`git restore nome-do-arquivo` Reverte o arquivo para as alterações do último add
